@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Business Intelligence © 2015 -->
+<svg version="1.1" id="Experts" width="200" height="95" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 273 101" enable-background="new 0 0 273 101" xml:space="preserve">
+<g>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E6E7E8" points="12.5,92.9 12.5,8.8 68.4,8.8 68.4,15.6 20.4,15.6 
+		20.4,46 63.7,46 63.7,52.7 20.4,52.7 20.4,86.1 69.6,86.1 69.6,92.9 	"/>
+	<g>
+		
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#BCBEC0" stroke-width="0.25" stroke-miterlimit="3.8637" points="
+			76.9,54.5 58.9,81.9 52.3,81.9 73.7,50 53.2,19.9 60,19.9 76.9,46 94,19.9 100.8,19.9 80.5,50 101.7,81.9 95,81.9 		"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 92.2793 58.4878)" fill="#BCBEC0" font-family="'ArialMT'" font-size="35px">pert</text>
+		<text transform="matrix(1 0 0 1 152.23 58.4878)" fill="#BCBEC0" font-family="'ArialMT'" font-size="35px">s</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 111.4282 92.7046)" fill="#E6E7E8" font-family="'ArialMT'" font-size="30px">SPEAK</text>
+	</g>
+</g>
+</svg>
