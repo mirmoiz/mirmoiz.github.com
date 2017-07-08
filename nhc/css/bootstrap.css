@@ -8,11 +8,11 @@ html {
 font-family: sans-serif;
 -webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
-background: url(../images/background.png) no-repeat center bottom fixed; 
+background: url(../images/background.png) no-repeat fixed center bottom; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
+background-size: auto;
 }
 body {
   margin: 0;
@@ -6780,7 +6780,7 @@ button.close {
 	background-color: rgba(255,255,153,0.5);
 }
 
-.div-bgcolor-3 {
+.div-02 {
 	background-color: #F3F3F3;
 }
 
