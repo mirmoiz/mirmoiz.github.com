@@ -6788,6 +6788,23 @@ button.close {
 	background-color: #F3F3F3;
 }
 
+.left-padding {
+    padding-left: 18px;
+}
+
+.txtcolor-5b {
+	color: #005b99;
+}
+
+.txtcolor-8d {
+	color: #8dc63f;
+}
+
+.txtcolor-fc {
+	color: #fcd116;
+}
+
+
 .txtcolor-ff {
 	color: #fff;
 }
