@@ -8,10 +8,10 @@ html {
 font-family: sans-serif;
 -webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
-background: url(../images/background.png) no-repeat fixed right bottom; 
+background: url(../images/background.png) no-repeat fixed right bottom;
 -webkit-background-size: auto;
--moz-background-size: auto;
--o-background-size: auto;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size: auto;
 }
 body {
@@ -6792,6 +6792,10 @@ button.close {
     padding-left: 18px;
 }
 
+.img-center {
+    margin: auto;
+}
+
 .txtcolor-5b {
 	color: #005b99;
 }
@@ -6811,6 +6815,10 @@ button.close {
 
 .txtcolor-c3 {
 	color: #c3c3c3;
+}
+
+.img-border-x4 {
+    border: 1px solid #f3f3f3;
 }
 
 .ld-image {
@@ -6878,4 +6886,3 @@ button.close {
     bottom: 30px;
   }
 }
-
