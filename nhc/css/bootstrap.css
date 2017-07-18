@@ -6791,6 +6791,9 @@ button.close {
 .left-padding {
     padding-left: 18px;
 }
+.right-padding-td {
+    padding-right: 5px;
+}
 
 .img-center {
     margin: auto;
