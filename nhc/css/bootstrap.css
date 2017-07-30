@@ -6836,6 +6836,18 @@ button.close {
 	background-position: top;
 }
 
+#map1 {
+   width: 100%;
+   height: 300px;
+   background-color: grey;
+ }
+
+ #map2 {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+  }
+
 /* Back to Top */
 
 .cd-top {

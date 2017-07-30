@@ -170,7 +170,7 @@ Seventy five year old lady, Helfrid, suffered pain in her hip joint. The doctors
 <blockquote><small><strong>6. 2015: Gothenburg, Sweden:</strong><br />
 Seventy five year old, MsAfsar, had inflammation on whole body. She got HBFST Massage for three weeks. Her body inflammation got cured.
 </small></blockquote>
-<blockquote><small><strong>7. 2015: Lahore & Karachi, Pakistan:</strong><br /> 
+<blockquote><small><strong>7. 2015: Lahore & Karachi, Pakistan:</strong><br />
   A number of ladies in their fifties were given SHOP Treatment for “frozen shoulder”, knee joints, and hip joints. All of them got cured.
 </small></blockquote>
 </p>
@@ -302,34 +302,20 @@ Sun-Chi Herbal Oil and Sun-Chi Herbal Paste is for “external use” only and i
             <br />
             <span><img src="images/contactus.png" width="450" height="45" alt="" class="img-responsive"/></span>
             <br />
-            <p>Nordic Herbal Company provides natural therapies and products that have been proven to be exceptionally effective for a range of painful ailments that we cover. These herbs used in the medicines have an ancient history.</p>
+            <div class="well col-lg-4 bg-01">
+              <span><strong>NHC Sweden</strong><br />Mor Annas väg 6, 438 92 Härryda, Sweden</span>
+              <br />
+              <span>NHC Pakistan</span>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 bg-01-5">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+            <div class="col-lg-8 bg-01">
+              <div id="map1"></div>
+              <br />
+              <div id="map2"></div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 bg-01-9">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
             </div>
         </div>
     </div>
     <br />
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 bg-01-5">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center"><p>Color Pallet Reference</p>
@@ -354,5 +340,37 @@ Sun-Chi Herbal Oil and Sun-Chi Herbal Paste is for “external use” only and i
     <br />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script>
+      function initMap1() {
+        var uluru = {lat: 57.7019143, lng: 12.2785874};
+        var map = new google.maps.Map(document.getElementById('map1'), {
+          zoom: 17,
+          center: uluru
+        });
+        // var marker = new google.maps.Marker({
+        //   position: uluru,
+        //   map: map
+        // });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMETtvixEYlvvELVY80S3cXE-jjMIMlsw&callback=initMap1">
+    </script>
+    <script>
+      function initMap2() {
+        var uluru = {lat: 24.812671, lng: 67.0490004};
+        var map = new google.maps.Map(document.getElementById('map2'), {
+          zoom: 18,
+          center: uluru
+        });
+        // var marker = new google.maps.Marker({
+        //   position: uluru,
+        //   map: map
+        // });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgMx73p0Zy1kySfydLSHZEruE_8ty9RPI&callback=initMap2">
+    </script>
   </body>
 </html>
