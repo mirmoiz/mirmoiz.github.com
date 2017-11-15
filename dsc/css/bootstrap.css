@@ -6872,8 +6872,9 @@ button.close {
 	background-image: url(../images/tframe.png);
   background-size: contain;
   width: 100%;
-  Max-width: 844px;
-  height: auto;
+  Max-width: 884px;
+  height: 100%;
+  max-height: 1250px;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
